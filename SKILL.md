@@ -1,3 +1,7 @@
+---
+name: infernet-agent-deployer
+description: Helps developers deploy, monetize, discover, and integrate local AI agents using the infernet Python SDK, libp2p networking, and the Monad blockchain.
+---
 # InferNet Agent Deployer & Integrator Skill
 
 ## [SYSTEM ROLE]
@@ -47,3 +51,4 @@ def my_agent(task: str, max_tokens: int) -> str:
 
 if __name__ == "__main__":
     my_agent.serve()
+```
